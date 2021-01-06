@@ -4,5 +4,6 @@
         <page name='UIKit Examples'/>
         <page name='Hello Swift'/>
         <page name='Live View Example'/>
+        <page name='Optionak binding'/>
     </pages>
 </playground>

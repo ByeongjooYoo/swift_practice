@@ -1,7 +1,11 @@
-//: [Previous](@previous)
 
-import Foundation
+var index: Int?
+index = 3
 
-var str = "Hello, playground"
+var treeArray = ["Oak", "Pine", "Yew", "Birch"]
 
-//: [Next](@next)
+if let myValue = index {
+    print(treeArray[myValue])
+} else {
+    print("index does not contain a value")
+}
