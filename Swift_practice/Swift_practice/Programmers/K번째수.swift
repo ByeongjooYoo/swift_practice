@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  K번째수.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by 유병주 on 2021/06/23.
 //
 
 import Foundation
@@ -32,13 +32,3 @@ let array: [Int] = [1, 5, 2, 6, 3, 7, 4]
 let commands: [[Int]] = [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
 
 print(solution(array, commands))
-
-
-
-
-
-
-
-
-
-
