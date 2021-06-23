@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  집합연산.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by 유병주 on 2021/06/24.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ func solution(_ array_A: [Int], _ array_B: [Int]) -> [Int]{
     result.append(set_B.count)
     result.append(sum(set_A, set_B))
     result.append(complement(set_A, set_B))
-    result.append(intersect(set_A, set_B).count)
+    result.append(intersect(set_A, set_B))
     
     return result
 }
@@ -53,7 +53,7 @@ func complement(_ array_A: [Int], _ araay_B: [Int]) -> Int {
     return result.count
 }
 
-func intersect(_ array_A: [Int], _ araay_B: [Int]) -> [Int] {
+func intersect(_ array_A: [Int], _ araay_B: [Int]) -> Int {
     var result: [Int] = []
     for i in array_A{
         for j in araay_B{
@@ -62,7 +62,7 @@ func intersect(_ array_A: [Int], _ araay_B: [Int]) -> [Int] {
             }
         }
     }
-    return result
+    return result.count
 }
 
 let test_a1: [Int] = [1, 2, 3, 2]
@@ -73,16 +73,3 @@ let test_b2: [Int] = [1, 6, 7]
 
 print(solution(test_a1, test_b1))
 print(solution(test_a2, test_b2))
-
-
-
-
-
-
-
-
-
-
-
-
-
