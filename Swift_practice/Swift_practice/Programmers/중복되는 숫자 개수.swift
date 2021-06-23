@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  중복되는 숫자 개수.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by 유병주 on 2021/06/24.
 //
-
 
 import Foundation
 
@@ -44,17 +43,3 @@ func solution(array: Array<Int>) -> Array<Int>{
 var test: Array<Int> = [1, 2, 3, 3, 3, 3, 4, 4]
 
 print(solution(array: test))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
