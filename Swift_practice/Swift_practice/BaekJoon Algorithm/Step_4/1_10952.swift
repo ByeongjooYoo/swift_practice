@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+var input: [String] = []
+var sum: Int = 0
+repeat{
+    if sum != 0{
+        print(sum)
+    }
+    input = readLine()!.components(separatedBy: " ")
+    sum = Int(input[0])! + Int(input[1])!
+    
+}while sum != 0

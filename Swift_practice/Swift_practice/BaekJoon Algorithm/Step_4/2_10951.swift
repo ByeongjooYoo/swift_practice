@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+while let input = readLine(){
+    print(input.components(separatedBy: " ").map{ Int($0)! }.reduce(0,+))
+}
