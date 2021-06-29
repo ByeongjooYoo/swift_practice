@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  7_4344.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/06/30.
 //
-
 
 import Foundation
 
@@ -29,5 +28,3 @@ for i in 0..<testCase{
 for i in 0..<resultSet.count{
     print(String(format: "%.3f", resultSet[i] * 100) + "%")
 }
-
-

@@ -59,6 +59,13 @@
 		3638BBB42683ACE70066761D /* 중복되는 숫자 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "중복되는 숫자 개수.swift"; sourceTree = "<group>"; };
 		36E2BDC4262C899300E88801 /* Swift_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E2BDC7262C899300E88801 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F09F7732268B6D4300EF5DAA /* 1_10818.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_10818.swift; sourceTree = "<group>"; };
+		F09F7733268B6D5300EF5DAA /* 2_2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_2562.swift; sourceTree = "<group>"; };
+		F09F7735268B6D5F00EF5DAA /* 3_2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_2577.swift; sourceTree = "<group>"; };
+		F09F7736268B6D7500EF5DAA /* 4_3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_3052.swift; sourceTree = "<group>"; };
+		F09F7737268B6D8C00EF5DAA /* 5_1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_1546.swift; sourceTree = "<group>"; };
+		F09F7738268B6D9800EF5DAA /* 6_8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6_8958.swift; sourceTree = "<group>"; };
+		F09F7739268B6DA500EF5DAA /* 7_4344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_4344.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,7 @@
 				3638BB962681B32C0066761D /* Step_2 */,
 				3638BB9E2681B41D0066761D /* Step_3 */,
 				3638BB9F2681B4410066761D /* Step_4 */,
+				F09F7731268B6CF800EF5DAA /* Step_5 */,
 			);
 			path = "BaekJoon Algorithm";
 			sourceTree = "<group>";
@@ -176,6 +184,20 @@
 				3638BBAF26836D510066761D /* Programmers */,
 			);
 			path = Swift_practice;
+			sourceTree = "<group>";
+		};
+		F09F7731268B6CF800EF5DAA /* Step_5 */ = {
+			isa = PBXGroup;
+			children = (
+				F09F7732268B6D4300EF5DAA /* 1_10818.swift */,
+				F09F7733268B6D5300EF5DAA /* 2_2562.swift */,
+				F09F7735268B6D5F00EF5DAA /* 3_2577.swift */,
+				F09F7736268B6D7500EF5DAA /* 4_3052.swift */,
+				F09F7737268B6D8C00EF5DAA /* 5_1546.swift */,
+				F09F7738268B6D9800EF5DAA /* 6_8958.swift */,
+				F09F7739268B6DA500EF5DAA /* 7_4344.swift */,
+			);
+			path = Step_5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
