@@ -9,10 +9,10 @@
 import Foundation
 
 var count: Int = 0
-var num: Int = Int(readLine()!)!
+//var num: Int = Int(readLine()!)!
 
-repeat{
-    let right: Int = num/
-    
-}while
-
+//repeat{
+//    let right: Int = num
+//    break
+//}while 1 != 0
+print("end")
