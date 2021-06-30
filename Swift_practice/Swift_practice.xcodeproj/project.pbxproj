@@ -59,6 +59,8 @@
 		3638BBB42683ACE70066761D /* 중복되는 숫자 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "중복되는 숫자 개수.swift"; sourceTree = "<group>"; };
 		36E2BDC4262C899300E88801 /* Swift_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E2BDC7262C899300E88801 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F00AC5FC268C3E0A00BCC75B /* 2_4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_4673.swift; sourceTree = "<group>"; };
+		F00AC5FD268C3E1C00BCC75B /* 3_1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_1065.swift; sourceTree = "<group>"; };
 		F09F7732268B6D4300EF5DAA /* 1_10818.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_10818.swift; sourceTree = "<group>"; };
 		F09F7733268B6D5300EF5DAA /* 2_2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_2562.swift; sourceTree = "<group>"; };
 		F09F7735268B6D5F00EF5DAA /* 3_2577.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_2577.swift; sourceTree = "<group>"; };
@@ -87,6 +89,8 @@
 				3638BB9E2681B41D0066761D /* Step_3 */,
 				3638BB9F2681B4410066761D /* Step_4 */,
 				F09F7731268B6CF800EF5DAA /* Step_5 */,
+				F00AC5FA268C3DD800BCC75B /* Step_6 */,
+				F00AC5FB268C3DE300BCC75B /* Step_7 */,
 			);
 			path = "BaekJoon Algorithm";
 			sourceTree = "<group>";
@@ -184,6 +188,22 @@
 				3638BBAF26836D510066761D /* Programmers */,
 			);
 			path = Swift_practice;
+			sourceTree = "<group>";
+		};
+		F00AC5FA268C3DD800BCC75B /* Step_6 */ = {
+			isa = PBXGroup;
+			children = (
+				F00AC5FC268C3E0A00BCC75B /* 2_4673.swift */,
+				F00AC5FD268C3E1C00BCC75B /* 3_1065.swift */,
+			);
+			path = Step_6;
+			sourceTree = "<group>";
+		};
+		F00AC5FB268C3DE300BCC75B /* Step_7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Step_7;
 			sourceTree = "<group>";
 		};
 		F09F7731268B6CF800EF5DAA /* Step_5 */ = {
