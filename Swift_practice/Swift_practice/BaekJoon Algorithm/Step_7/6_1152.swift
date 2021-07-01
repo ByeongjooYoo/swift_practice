@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+let wordArray: [String] = readLine()!.components(separatedBy: " ")
+var count = wordArray.filter{ ($0).count > 0}
+
+print(count.count)
+
+

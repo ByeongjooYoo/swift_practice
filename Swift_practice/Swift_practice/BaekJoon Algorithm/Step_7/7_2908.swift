@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+let wordArray: [String] = readLine()!.components(separatedBy: " ")
+let num1: Int = Int(String(wordArray[0].reversed()))!
+let num2: Int = Int(String(wordArray[1].reversed()))!
+if num1 > num2{
+    print(num1)
+}else{
+    print(num2)
+}
