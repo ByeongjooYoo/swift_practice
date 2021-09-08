@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  신규 아이디 추천.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/09/08.
 //
 
 import Foundation
@@ -114,3 +114,4 @@ let testCases: [String] = ["...!@BaT#*..y.abcdefghijklm", "z-+.^.", "=.=", "123_
 for testCase in testCases{
     print(solution(testCase))
 }
+
