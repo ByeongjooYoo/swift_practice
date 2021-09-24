@@ -1,11 +1,12 @@
 //
-//  main.swift
+//  정수 내림차순으로 배치하기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/09/24.
 //
 
 import Foundation
+
 func solution(_ n:Int64) -> Int64 {
     let num = Array(String(n))
     var numArray: [String] = []
@@ -13,14 +14,9 @@ func solution(_ n:Int64) -> Int64 {
     for i in num {
         numArray.append(String(i))
     }
-    print(numArray)
     numArray = numArray.sorted(by: >)
-    print(numArray)
     for i in numArray {
         str += i
-        print(i)
     }
     return Int64(str)!
 }
-
-print(solution(118372))
