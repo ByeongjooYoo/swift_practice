@@ -6,21 +6,7 @@
 //
 
 import Foundation
-func solution(_ n:Int64) -> Int64 {
-    let num = Array(String(n))
-    var numArray: [String] = []
-    var str = ""
-    for i in num {
-        numArray.append(String(i))
-    }
-    print(numArray)
-    numArray = numArray.sorted(by: >)
-    print(numArray)
-    for i in numArray {
-        str += i
-        print(i)
-    }
-    return Int64(str)!
-}
+let num = 1235
+var array = Array(String(num)).map { Int(String($0))! }
 
-print(solution(118372))
+print(array)
