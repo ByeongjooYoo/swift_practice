@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  약수의 합.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/09/26.
 //
 
 import Foundation
@@ -19,4 +19,3 @@ func solution(_ n:Int) -> Int {
     
     return divisor.reduce(0, +)
 }
-print(solution(0))
