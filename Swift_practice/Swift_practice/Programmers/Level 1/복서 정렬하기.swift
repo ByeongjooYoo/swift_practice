@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  복서 정렬하기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/03.
 //
 
 import Foundation
@@ -75,12 +75,4 @@ func calculateWinRate(_ table: [[String]], _ weights:[Int]) -> ([Double], [Int])
         }
     }
     return (result, result2)
-}
-
-
-let head2head =  [["NLWL","WNLL","LWNW","WWLN"], ["NLW","WNL","LWN"], ["NNN","NNN","NNN"]]
-let weights = [[50,82,75,120], [145,92,86], [60,70,60]]
-
-for i in 0 ..< head2head.count {
-    print(solution(weights[i], head2head[i]))
 }
