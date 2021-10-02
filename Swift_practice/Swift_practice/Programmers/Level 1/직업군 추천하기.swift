@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  직업군 추천하기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/02.
 //
 
 import Foundation
@@ -41,9 +41,3 @@ func returnPreference(_ table: [[String]],_ languages: [String], _ preference: [
     }
     return preference[0]
 }
-
-print(solution(["SI JAVA JAVASCRIPT SQL PYTHON C#",
-                "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++",
-                "HARDWARE C C++ PYTHON JAVA JAVASCRIPT",
-                "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP",
-                "GAME C++ C# JAVASCRIPT C JAVA"], ["JAVA", "JAVASCRIPT"], [7, 5]))
