@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  최소직각형.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/03.
 //
-
 
 import Foundation
 
@@ -42,6 +41,3 @@ func findHeightMax(_ sizes:[[Int]]) -> Int {
     }
     return max
 }
-
-
-print(solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]))
