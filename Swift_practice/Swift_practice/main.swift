@@ -8,40 +8,10 @@
 
 import Foundation
 
-func solution(_ sizes:[[Int]]) -> Int {
-    var result = 0
-    let rotateSize = rotate(sizes)
-    result = findWidthMax(rotateSize) * findHeightMax(rotateSize)
-    return result
+var test = 45
+let temp = Array(String(test, radix: 3)).map{ Int(String($0))! }
+var sum = 0
+for i in 0 ..< temp.count {
+    sum += temp[i] * Int(pow(3.0, Double(i)))
 }
-
-func rotate(_ sizes:[[Int]]) -> [[Int]] {
-    var rotate = sizes
-    for i in 0 ..< rotate.count {
-        rotate[i].sort()
-    }
-    return rotate
-}
-
-func findWidthMax(_ sizes:[[Int]]) -> Int {
-    var max = 0
-    for i in 0 ..< sizes.count {
-        if max < sizes[i][0] {
-            max = sizes[i][0]
-        }
-    }
-    return max
-}
-
-func findHeightMax(_ sizes:[[Int]]) -> Int {
-    var max = 0
-    for i in 0 ..< sizes.count {
-        if max < sizes[i][1] {
-            max = sizes[i][1]
-        }
-    }
-    return max
-}
-
-
-print(solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]))
+print(sum)
