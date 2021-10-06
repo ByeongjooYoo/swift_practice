@@ -143,6 +143,7 @@
 		F0F36908270D44ED00BA0DDC /* 음양 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "음양 더하기.swift"; sourceTree = "<group>"; };
 		F0F36909270D47CC00BA0DDC /* 없는 숫자 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "없는 숫자 더하기.swift"; sourceTree = "<group>"; };
 		F0F3690B270D4AEB00BA0DDC /* 로또의 최고 순위와 최저 순위.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "로또의 최고 순위와 최저 순위.swift"; sourceTree = "<group>"; };
+		F0F3690D270D50E900BA0DDC /* N개의 최소공배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N개의 최소공배수.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +236,7 @@
 			children = (
 				F0A2D2CC26E89378000B4158 /* Coding Test File */,
 				F0A2D2CB26E89361000B4158 /* Level 1 */,
+				F0F3690C270D4B9000BA0DDC /* Level 2 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -416,6 +418,14 @@
 				F0B4B0C326ECB28F00385F53 /* 문제 2.swift */,
 			);
 			path = Kakao;
+			sourceTree = "<group>";
+		};
+		F0F3690C270D4B9000BA0DDC /* Level 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3690D270D50E900BA0DDC /* N개의 최소공배수.swift */,
+			);
+			path = "Level 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
