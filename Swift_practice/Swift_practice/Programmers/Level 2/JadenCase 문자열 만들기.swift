@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  JadenCase 문자열 만들기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/06.
 //
-
 
 import Foundation
 
@@ -22,6 +21,3 @@ func solution(_ s:String) -> String {
     
     return answer.joined(separator: " ")
 }
-
-print(solution(" 3people unFollowed me "))
-
