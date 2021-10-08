@@ -146,6 +146,7 @@
 		F0F3690D270D50E900BA0DDC /* N개의 최소공배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N개의 최소공배수.swift"; sourceTree = "<group>"; };
 		F0F3690E270D5D1C00BA0DDC /* JadenCase 문자열 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JadenCase 문자열 만들기.swift"; sourceTree = "<group>"; };
 		F0FA7737271066AC003D5E1F /* 행열의 곱셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "행열의 곱셈.swift"; sourceTree = "<group>"; };
+		F0FA77382710685A003D5E1F /* 피보나치 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피보나치 수.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +429,7 @@
 				F0F3690D270D50E900BA0DDC /* N개의 최소공배수.swift */,
 				F0F3690E270D5D1C00BA0DDC /* JadenCase 문자열 만들기.swift */,
 				F0FA7737271066AC003D5E1F /* 행열의 곱셈.swift */,
+				F0FA77382710685A003D5E1F /* 피보나치 수.swift */,
 			);
 			path = "Level 2";
 			sourceTree = "<group>";
