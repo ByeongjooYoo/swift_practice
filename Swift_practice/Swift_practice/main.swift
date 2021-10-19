@@ -8,20 +8,29 @@
 
 import Foundation
 
-func solution(_ s:String) -> String {
-    let words = s.components(separatedBy: " ")
-    var characters = Array(repeating: [String](), count: words.count)
-    var answer = Array(repeating: String(), count: words.count)
-    for i in 0 ..< words.count {
-        characters[i] = words[i].map{ String($0).lowercased() }
-        if !characters[i].isEmpty {
-            characters[i][0] = characters[i][0].uppercased()
+func solution(_ A:[Int], _ B:[Int]) -> Int
+{
+    var arrayA = A
+    var arrayB = B
+    var ans = 0
+    while arrayA.count != 0 {
+        let maxA = arrayA.max()!
+        let minA = arrayA.min()!
+        let maxB = arrayB.max()!
+        let minB = arrayB.min()!
+        if arrayA.count == 1{
+            ans += minA * minB
+        } else {
+            ans += maxA * minB
+            ans += maxB * minA
+            arrayA.remove(at: arrayA.firstIndex(of: maxA)!)
+            arrayA.remove(at: arrayA.firstIndex(of: minA)!)
+            arrayB.remove(at: arrayB.firstIndex(of: maxB)!)
+            arrayB.remove(at: arrayB.firstIndex(of: minB)!)
         }
-        answer[i] = characters[i].joined(separator: "")
     }
-    
-    return answer.joined(separator: " ")
+    return ans
 }
 
-print(solution(" 3people unFollowed me "))
-
+let array = [1,2,3,4,5]
+print(array.startIndex)
