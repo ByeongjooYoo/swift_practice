@@ -1,27 +1,25 @@
 //
-//  main.swift
+//  N진수 게임.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/20.
 //
-
 
 import Foundation
 
 func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
-    var str = ""
+    var str: [Character] = []
     var number = 0
     var result = ""
     while str.count <= t * m {
-        str += String(number, radix: n)
+        let strNum = String(number, radix: n, uppercase: true)
+        strNum.forEach { str.append($0)}
         number += 1
     }
     var i = p - 1
     while result.count < t {
-        result += String(str[str.index(str.startIndex, offsetBy: i)])
+        result += String(str[i])
         i += m
     }
-    return result.uppercased()
+    return result
 }
-
-print(solution(16, 16, 2, 1))
