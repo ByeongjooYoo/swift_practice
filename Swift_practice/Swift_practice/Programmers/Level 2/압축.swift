@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  압축.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/21.
 //
-
 
 import Foundation
 func solution(_ msg:String) -> [Int] {
@@ -26,13 +25,7 @@ func solution(_ msg:String) -> [Int] {
             result.append(dic[key]!)
             key = String(msgA[i])
         }
-        print(result)
     }
     result.append(dic[key]!)
-    print(dic)
     return result
 }
-
-let testcase1 = "KAKAO"
-print(solution(testcase1))
-
