@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  파일명 정렬.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/21.
 //
-
 
 import Foundation
 
@@ -39,8 +38,3 @@ func solution(_ files:[String]) -> [String] {
     }
     return result.map { $0.fullFileName }
 }
-
-let testcase1 = ["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]
-let testcase2 = ["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"]
-print(solution(testcase1))
-
