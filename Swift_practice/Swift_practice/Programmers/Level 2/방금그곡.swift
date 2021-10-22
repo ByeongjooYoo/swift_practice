@@ -1,9 +1,10 @@
 //
-//  main.swift
+//  방금그곡.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/22.
 //
+
 import Foundation
 
 struct Music {
@@ -55,7 +56,3 @@ func convertStr(_ song: String) -> String {
     }
     return result
 }
-
-print(solution("ABC", ["12:58,13:03,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"]))
-
-
