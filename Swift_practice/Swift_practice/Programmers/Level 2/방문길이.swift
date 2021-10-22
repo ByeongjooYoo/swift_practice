@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  방문길이.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/23.
 //
 
 import Foundation
@@ -45,9 +45,3 @@ func solution(_ dirs:String) -> Int {
     }
     return set.count
 }
-
-print(solution("RL"))
-
-
-
-
