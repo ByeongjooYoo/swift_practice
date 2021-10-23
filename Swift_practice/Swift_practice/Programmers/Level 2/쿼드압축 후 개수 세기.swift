@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  쿼드압축 후 개수 세기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/23.
 //
 
 import Foundation
@@ -58,6 +58,3 @@ func checkAllNum(_ arr:[[Int]]) -> Bool {
     result.append(arr[0][0])
     return true
 }
-
-print(solution([[1,1,0,0],[1,0,0,0],[1,0,0,1],[1,1,1,1]]))
-
