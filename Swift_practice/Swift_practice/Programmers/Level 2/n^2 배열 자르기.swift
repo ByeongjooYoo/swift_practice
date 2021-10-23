@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  n^2 배열 자르기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2021/10/23.
 //
 
 import Foundation
@@ -14,5 +14,3 @@ func solution(_ n:Int, _ left:Int64, _ right:Int64) -> [Int] {
     }
     return result
 }
-
-print(solution(3, 2, 5))
