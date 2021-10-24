@@ -7,9 +7,4 @@
 
 import Foundation
 
-var array = [1,2,3,4,5]
-array.removeFirst()
-print(array.firstIndex(of: 4)!)
 
-var str = Array(repeating: "", count: 0)
-print(str)
