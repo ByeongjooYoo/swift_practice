@@ -7,12 +7,9 @@
 
 import Foundation
 
-func solution(_ n:Int, _ left:Int64, _ right:Int64) -> [Int] {
-    var result: [Int] = []
-    for i in left ... right {
-        result.append(max(Int(i) % n, Int(i) / n) + 1)
-    }
-    return result
-}
+var array = [1,2,3,4,5]
+array.removeFirst()
+print(array.firstIndex(of: 4)!)
 
-print(solution(3, 2, 5))
+var str = Array(repeating: "", count: 0)
+print(str)
