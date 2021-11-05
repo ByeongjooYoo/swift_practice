@@ -9,4 +9,4 @@ import Foundation
 
 var string = ["hello", "one", "even", "never", "now", "world", "draw"]
 var str = "hello"
-print(str.first!)
+print(string.first!)
