@@ -2,7 +2,7 @@
 //  가장 큰 수.swift
 //  Swift_practice
 //
-//  Created by ByeongJu Yu on 2022/01/24.
+//  Created by ByeongJu Yu on 2022/02/21.
 //
 
 import Foundation
@@ -20,4 +20,5 @@ func solution(_ numbers:[Int]) -> String {
 
 let testcase1 = [6, 10, 2]
 let testcase2 = [3, 30, 34, 5, 9]
+
 print(solution(testcase1))
