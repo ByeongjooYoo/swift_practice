@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  H-Index.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/02/21.
 //
 
 import Foundation
