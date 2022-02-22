@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  SelectionSort.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/02/22.
 //
 
 import Foundation
@@ -46,6 +46,3 @@ func selectionSortDescending(array: [Int]) -> [Int] {
     }
     return resultArray
 }
-
-print(selectionSortAscending(array: [3, 8, 0, 1, 4, 5, 2]))
-print(selectionSortDescending(array: [3, 8, 0, 1, 4, 5, 2]))

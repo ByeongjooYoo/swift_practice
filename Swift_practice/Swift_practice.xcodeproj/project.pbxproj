@@ -138,6 +138,8 @@
 		F048038D26FC509E0064B8AA /* 하샤드 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "하샤드 수.swift"; sourceTree = "<group>"; };
 		F048038E26FC555B0064B8AA /* 콜라츠 추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "콜라츠 추측.swift"; sourceTree = "<group>"; };
 		F048038F26FC59CF0064B8AA /* 최대공약수와 최소공배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최대공약수와 최소공배수.swift"; sourceTree = "<group>"; };
+		F05AE43827C4DB59002B9C32 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		F05AE43927C4DB70002B9C32 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		F06471422726E7BF0042503B /* 영어 끝말잇기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "영어 끝말잇기.swift"; sourceTree = "<group>"; };
 		F08B84D627C3CC5800A17890 /* 가장 큰 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 큰 수.swift"; sourceTree = "<group>"; };
 		F08B84D927C3CC9F00A17890 /* 없는 숫자 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "없는 숫자 더하기.swift"; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				36E2BDC7262C899300E88801 /* main.swift */,
 				3638BB862681AB050066761D /* BaekJoon Algorithm */,
 				3638BBAF26836D510066761D /* Programmers */,
+				F05AE43727C4DB29002B9C32 /* Data Structure */,
 			);
 			path = Swift_practice;
 			sourceTree = "<group>";
@@ -397,6 +400,15 @@
 			);
 			name = "기타";
 			path = "기타";
+			sourceTree = "<group>";
+		};
+		F05AE43727C4DB29002B9C32 /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				F05AE43827C4DB59002B9C32 /* BubbleSort.swift */,
+				F05AE43927C4DB70002B9C32 /* SelectionSort.swift */,
+			);
+			path = "Data Structure";
 			sourceTree = "<group>";
 		};
 		F09F7731268B6CF800EF5DAA /* Step_5 */ = {
