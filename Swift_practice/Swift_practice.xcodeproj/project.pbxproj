@@ -405,10 +405,18 @@
 		F05AE43727C4DB29002B9C32 /* Data Structure */ = {
 			isa = PBXGroup;
 			children = (
+				F05AE43A27C4E404002B9C32 /* Sort */,
+			);
+			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		F05AE43A27C4E404002B9C32 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
 				F05AE43827C4DB59002B9C32 /* BubbleSort.swift */,
 				F05AE43927C4DB70002B9C32 /* SelectionSort.swift */,
 			);
-			path = "Data Structure";
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		F09F7731268B6CF800EF5DAA /* Step_5 */ = {
