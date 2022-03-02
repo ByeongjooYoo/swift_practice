@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  InsetionSort.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/03/02.
 //
 
 import Foundation
@@ -38,7 +38,3 @@ func insertionSortDescending(array: [Int]) -> [Int] {
     }
     return resultArray
 }
-
-let testcase = [6, 3, 2, 9, 4, 13, 5, 1, 7]
-print(insertionSortAscending(array: testcase))
-print(insertionSortDescending(array: testcase))
