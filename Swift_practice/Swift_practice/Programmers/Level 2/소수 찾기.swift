@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  소수 찾기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/03/02.
 //
 
 import Foundation
@@ -72,9 +72,3 @@ func convertArrayToInt(_ numbers: [Int]) -> Int {
     
     return result
 }
-
-
-let testcase1 = "1231"
-let testcase2 = "011"
-print(solution(testcase1))
-
