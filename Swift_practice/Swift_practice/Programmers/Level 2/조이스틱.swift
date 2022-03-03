@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  조이스틱.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/03/03.
 //
 
 import Foundation
@@ -19,7 +19,7 @@ func solution(_ name:String) -> Int {
         index = i + 1
         while(index < indexArray.count && indexArray[index] == 0) {
             index += 1
-        }        
+        }
         move = move < (i * 2 + indexArray.count - index) ? move : i * 2 + indexArray.count - index
         move = move < ((indexArray.count - index) * 2 + i) ? move : (indexArray.count - index) * 2 + i
     }
@@ -38,10 +38,3 @@ func countIndex(_ name: String) -> [Int] {
     }
     return result
 }
-
-let testcase1 = "BBABAAAABBBAAAABABB"
-let testcase2 = "BBBBAAAAAB"
-
-//print(solution(testcase1))
-print(solution(testcase2))
-
