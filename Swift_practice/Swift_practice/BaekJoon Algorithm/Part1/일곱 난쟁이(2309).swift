@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  일곱 난쟁이(2309).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/05/03.
 //
 
 import Foundation
@@ -36,4 +36,3 @@ func DFS(_ count: Int, _ sum: Int, _ realMan: [Int]) {
 }
 DFS(0, 0, [])
 print(result)
-
