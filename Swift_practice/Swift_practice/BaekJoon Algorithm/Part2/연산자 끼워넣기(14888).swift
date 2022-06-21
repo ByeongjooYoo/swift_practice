@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  연산자 끼워넣기(14888).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/06/21.
 //
 
 import Foundation
@@ -73,4 +73,3 @@ func convertOperator(_ operators: [Int]) -> [String] {
     }
     return result
 }
-

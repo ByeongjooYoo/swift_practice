@@ -94,6 +94,15 @@
 		F0212D55273620C900E82D6E /* 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.swift; sourceTree = "<group>"; };
 		F0212D56273620D600E82D6E /* 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7.swift; sourceTree = "<group>"; };
 		F0212D57273620E000E82D6E /* 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6.swift; sourceTree = "<group>"; };
+		F0431DA2285EF26D009D62EB /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		F0431DA3285EF275009D62EB /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
+		F0431DA5285EF27B009D62EB /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
+		F0431DA7285EF281009D62EB /* 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.swift; sourceTree = "<group>"; };
+		F0431DA928620D7E009D62EB /* 연산자 끼워넣기(14888).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "연산자 끼워넣기(14888).swift"; sourceTree = "<group>"; };
+		F045834C28557944000E0599 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		F045834E2855805D000E0599 /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
+		F04583502855892A000E0599 /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
+		F045835328576F92000E0599 /* 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.swift; sourceTree = "<group>"; };
 		F045E99826FE00420094ADAA /* 짝수와 홀수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "짝수와 홀수.swift"; sourceTree = "<group>"; };
 		F045E99926FE05CE0094ADAA /* 정수 제곱근 판별.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "정수 제곱근 판별.swift"; sourceTree = "<group>"; };
 		F045E99A26FE09940094ADAA /* 제일 작은 수 제거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "제일 작은 수 제거하기.swift"; sourceTree = "<group>"; };
@@ -231,6 +240,7 @@
 		3638BB862681AB050066761D /* BaekJoon Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				F070967F285255C700CA90E9 /* Part2 */,
 				F0C26EB32820253500751D71 /* Part1 */,
 				3638BB8D2681B1670066761D /* Step_1 */,
 				3638BB962681B32C0066761D /* Step_2 */,
@@ -418,6 +428,29 @@
 			path = "기타";
 			sourceTree = "<group>";
 		};
+		F0431DA1285EF25E009D62EB /* 2022네이버 */ = {
+			isa = PBXGroup;
+			children = (
+				F0431DA2285EF26D009D62EB /* 1.swift */,
+				F0431DA3285EF275009D62EB /* 2.swift */,
+				F0431DA5285EF27B009D62EB /* 3.swift */,
+				F0431DA7285EF281009D62EB /* 4.swift */,
+			);
+			name = "2022네이버";
+			path = "2022네이버";
+			sourceTree = "<group>";
+		};
+		F045834B28557645000E0599 /* 2022SKT */ = {
+			isa = PBXGroup;
+			children = (
+				F045834C28557944000E0599 /* 1.swift */,
+				F045834E2855805D000E0599 /* 2.swift */,
+				F04583502855892A000E0599 /* 3.swift */,
+				F045835328576F92000E0599 /* 4.swift */,
+			);
+			path = 2022SKT;
+			sourceTree = "<group>";
+		};
 		F05321F427EE9C2E0071B8CE /* line 2022-1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +480,14 @@
 				F0BF8DA527CFBC24003FC132 /* InsetionSort.swift */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		F070967F285255C700CA90E9 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				F0431DA928620D7E009D62EB /* 연산자 끼워넣기(14888).swift */,
+			);
+			path = Part2;
 			sourceTree = "<group>";
 		};
 		F088930E27E39EF0006ACFCD /* 쏘카 */ = {
@@ -535,6 +576,8 @@
 		F0A2D2CC26E89378000B4158 /* Coding Test File */ = {
 			isa = PBXGroup;
 			children = (
+				F0431DA1285EF25E009D62EB /* 2022네이버 */,
+				F045834B28557645000E0599 /* 2022SKT */,
 				F0B9405128261ECE0047C6EB /* 카카오 2022 인턴 */,
 				F0C65E7328014368006B0210 /* 오늘의 집 */,
 				F05321F427EE9C2E0071B8CE /* line 2022-1 */,
