@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  괄호의 값(2504).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/06/22.
 //
 
 import Foundation
@@ -54,4 +54,3 @@ if stack.isEmpty && flag {
 } else{
     print(0)
 }
-
