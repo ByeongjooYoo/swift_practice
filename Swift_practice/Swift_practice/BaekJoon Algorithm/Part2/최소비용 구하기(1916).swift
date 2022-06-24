@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  최소비용 구하기.swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/06/24.
 //
-
 
 import Foundation
 
@@ -42,6 +41,3 @@ func visit(_ node: Int) {
 }
 
 print(queue[end - 1])
-
-
-
