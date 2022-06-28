@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  요세푸스 문제 0(11866).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/06/28.
 //
 
 import Foundation
@@ -24,4 +24,3 @@ while !numbers.isEmpty {
 }
 
 print("<\(result.map { String($0) }.joined(separator: ", "))>")
-
