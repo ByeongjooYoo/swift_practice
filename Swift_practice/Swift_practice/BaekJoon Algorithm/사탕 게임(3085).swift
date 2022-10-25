@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  사탕 게임(3085).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/10/25.
 //
 
 import Foundation
@@ -89,3 +89,4 @@ func swapVertical(_ a: Int, _ b: Int){
     matrix[a][b] = matrix[a + 1][b]
     matrix[a + 1][b] = temp
 }
+
