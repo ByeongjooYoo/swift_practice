@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  상어 초등학교(21608).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/10/27.
 //
-
 
 import Foundation
 
