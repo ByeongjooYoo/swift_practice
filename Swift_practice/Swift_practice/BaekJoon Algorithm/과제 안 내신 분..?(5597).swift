@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  과제 안 내신 분..?(5597).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/10/27.
 //
-
 
 import Foundation
 
@@ -25,4 +24,3 @@ for i in 1 ..< array.count {
 result.sort()
 print(result[0])
 print(result[1])
-

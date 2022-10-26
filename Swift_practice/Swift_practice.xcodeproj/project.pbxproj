@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36E2BDC8262C899300E88801 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E2BDC7262C899300E88801 /* main.swift */; };
+		F0170CC729098D0500D64A0E /* 과제 안 내신 분..?(5597).swift in Sources */ = {isa = PBXBuildFile; fileRef = F0170CC629098D0500D64A0E /* 과제 안 내신 분..?(5597).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +85,7 @@
 		F00AC612268E346000BCC75B /* 8_10757.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_10757.swift; sourceTree = "<group>"; };
 		F00AC613268E346A00BCC75B /* 9_1011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_1011.swift; sourceTree = "<group>"; };
 		F0170CC5290987A900D64A0E /* 상어 초등학교(21608).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "상어 초등학교(21608).swift"; sourceTree = "<group>"; };
+		F0170CC629098D0500D64A0E /* 과제 안 내신 분..?(5597).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "과제 안 내신 분..?(5597).swift"; sourceTree = "<group>"; };
 		F0212D492734FCBC00E82D6E /* 카펫.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "카펫.swift"; sourceTree = "<group>"; };
 		F0212D4B27350B6800E82D6E /* 큰 수 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰 수 만들기.swift"; sourceTree = "<group>"; };
 		F0212D4C273516D200E82D6E /* 다리를 지나는 트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다리를 지나는 트럭.swift"; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 		3638BB862681AB050066761D /* BaekJoon Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				F0170CC5290987A900D64A0E /* 상어 초등학교(21608).swift */,
 				F076A3B72869DCD3000210FF /* 구현 */,
 				F070967F285255C700CA90E9 /* Part2 */,
 				F0C26EB32820253500751D71 /* Part1 */,
@@ -282,6 +285,7 @@
 				F00AC5FB268C3DE300BCC75B /* Step_7 */,
 				F00AC608268E33A100BCC75B /* Step_8 */,
 				F057AB7229082AE200128613 /* 사탕 게임(3085).swift */,
+				F0170CC629098D0500D64A0E /* 과제 안 내신 분..?(5597).swift */,
 			);
 			path = "BaekJoon Algorithm";
 			sourceTree = "<group>";
@@ -374,7 +378,6 @@
 			isa = PBXGroup;
 			children = (
 				36E2BDC7262C899300E88801 /* main.swift */,
-				F0170CC5290987A900D64A0E /* 상어 초등학교(21608).swift */,
 				3638BB862681AB050066761D /* BaekJoon Algorithm */,
 				3638BBAF26836D510066761D /* Programmers */,
 				F05AE43727C4DB29002B9C32 /* Data Structure */,
@@ -842,6 +845,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0170CC729098D0500D64A0E /* 과제 안 내신 분..?(5597).swift in Sources */,
 				36E2BDC8262C899300E88801 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
