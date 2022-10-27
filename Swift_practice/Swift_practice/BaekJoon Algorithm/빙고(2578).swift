@@ -1,10 +1,9 @@
 //
-//  main.swift
+//  빙고(2578).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/10/28.
 //
-
 
 import Foundation
 
@@ -92,3 +91,4 @@ func findLine() -> Int {
     
     return line
 }
+
