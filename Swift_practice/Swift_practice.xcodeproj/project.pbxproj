@@ -195,6 +195,9 @@
 		F09F7738268B6D9800EF5DAA /* 6_8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6_8958.swift; sourceTree = "<group>"; };
 		F09F7739268B6DA500EF5DAA /* 7_4344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_4344.swift; sourceTree = "<group>"; };
 		F0A2D2CD26E89408000B4158 /* 신규 아이디 추천.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신규 아이디 추천.swift"; sourceTree = "<group>"; };
+		F0A988A9291A976800AAE2E9 /* 시각(18312).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "시각(18312).swift"; sourceTree = "<group>"; };
+		F0A988AB291A9A1900AAE2E9 /* 피로도(22864).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피로도(22864).swift"; sourceTree = "<group>"; };
+		F0A988AC291BF36300AAE2E9 /* 번데기(15721).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "번데기(15721).swift"; sourceTree = "<group>"; };
 		F0ABF43028DB526300933266 /* 수들의 합(1789).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수들의 합(1789).swift"; sourceTree = "<group>"; };
 		F0B4B0BB26E9CCA700385F53 /* 숫자 문자열과 영단어.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "숫자 문자열과 영단어.swift"; sourceTree = "<group>"; };
 		F0B4B0BC26E9DD3C00385F53 /* 크레인 인형 뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형 뽑기 게임.swift"; sourceTree = "<group>"; };
@@ -293,6 +296,9 @@
 				F06B29C6290AE3230075D64C /* 빙고(2578).swift */,
 				F061707029140B3300BA0101 /* 블랙잭(2798).swift */,
 				F061707229140F4300BA0101 /* 분해합(2231).swift */,
+				F0A988A9291A976800AAE2E9 /* 시각(18312).swift */,
+				F0A988AB291A9A1900AAE2E9 /* 피로도(22864).swift */,
+				F0A988AC291BF36300AAE2E9 /* 번데기(15721).swift */,
 			);
 			path = "BaekJoon Algorithm";
 			sourceTree = "<group>";

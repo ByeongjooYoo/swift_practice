@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  번데기(15721).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/11/09.
 //
 
 import Foundation
@@ -39,4 +39,3 @@ while true {
         break
     }
 }
-
