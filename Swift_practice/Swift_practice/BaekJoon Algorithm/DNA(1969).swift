@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  DNA(1969).swift
 //  Swift_practice
 //
-//  Created by 유병주 on 2021/04/19.
+//  Created by ByeongJu Yu on 2022/11/15.
 //
 
 import Foundation
@@ -42,4 +42,5 @@ for i in 0 ..< M {
 
 print(result.joined())
 print(resultHD)
+
 
